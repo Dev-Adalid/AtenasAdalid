@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Echoes - Free HTML Bootstrap Template</title>
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+      
+      <style>
+        
+     </style>
+     
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+          <div class="col-md-12">
+              <div class="nav">
+                  <button class="btn-nav">
+                      <span class="icon-bar top"></span>
+                      <span class="icon-bar middle"></span>
+                      <span class="icon-bar bottom"></span>
+                  </button>
+              </div>
+              <a class="navbar-brand" href="index.html">
+                  <img class="logo" src="img/logo.png" alt="logo">
+              </a>
+              <div class="nav-content hideNav hidden">
+                  <ul class="nav-list vcenter">
+                      <li class="nav-item"><a class="item-anchor" href="index.html">Inicio</a></li>
+                      <li class="nav-item"><a class="item-anchor" href="about.html">Sobre Mi</a></li>
+                      <li class="nav-item"><a class="item-anchor" href="portfolio.html">Obras</a></li>
+                      <li class="nav-item"><a class="item-anchor" href="contact.html">Contactos</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+
+      <section id="portfolio">
+         <div class="container">
+           <div class="row">
+             <div class="col-sm-12">
+               <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
+                 <div class="slider-wrapper">
+
+                  <div class="slider-buttons-container">
+                     <div class="slider-button-wrapper">
+                       <button onclick="changeGallery(-1)" class="slider-button prev-button">
+                         <i class="fas fa-chevron-left"></i>
+                       </button>
+                     </div>
+                     <div class="slider-button-wrapper">
+                       <button onclick="changeGallery(1)" class="slider-button next-button">
+                         <i class="fas fa-chevron-right"></i>
+                       </button>
+                     </div>
+                   </div>
+
+                   <h3 id="galleryTitle">Gallery 1</h3> <!-- Título de la galería inicial -->
+     
+                   <ul class="portfolio-items list-unstyled" id="grid">
+                     <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio8.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>     
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio8.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>   
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio8.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li> 
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio8.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>            
+                     </ul>
+                  
+                  <ul class="portfolio-items list-unstyled" id="grid2" style="display: none;">
+                     <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio2.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio2.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>        
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio2.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio2.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>     
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio2.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio2.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>   
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio2.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio2.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>          
+                  </ul>
+
+                 
+
+                   <ul class="portfolio-items list-unstyled" id="grid2" style="display: none;">
+                     <!-- Resto del código HTML de la Galería 2 -->
+                     <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio3.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio3.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>   
+                      <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                        <a href="img/portfolio3.jpg" data-lightbox="true">
+                          <div class="background-image-holder">
+                            <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio3.jpg" />
+                          </div>
+                          <br>
+                        </a>
+                      </li>   
+                   
+                   <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                     <a href="img/portfolio3.jpg" data-lightbox="true">
+                       <div class="background-image-holder">
+                         <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio3.jpg" />
+                       </div>
+                       <br>
+                     </a>
+                   </li>   
+                   <li class="col-md-4 col-sm-12 col-xs-12 no-gutter active" data-groups='["moment","people"]'>
+                     <a href="img/portfolio3.jpg" data-lightbox="true">
+                       <div class="background-image-holder">
+                         <img id="currentArtwork" alt="portfolio" class="background-image" src="img/portfolio3.jpg" />
+                       </div>
+                       <br>
+                     </a>
+                   </li>   
+                </ul>
+                   <!-- Agrega más galerías aquí según sea necesario -->
+     
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/lightbox-plus-jquery.js"></script>
+      <script src="js/jquery.shuffle.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+ 
+      <!-- Agrega aquí los scripts necesarios para el funcionamiento del slider -->
+      <script>
+         var currentGalleryIndex = 0; // Índice de la galería actual
+         var galleries = document.querySelectorAll(".portfolio-items"); // Lista de todas las galerías
+         var galleryTitles = ["Gallery 1", "Gallery 2", "Gallery 3"]; // Títulos de cada galería
+       
+         function changeGallery(direction) {
+           galleries[currentGalleryIndex].style.display = "none"; // Oculta la galería actual
+           currentGalleryIndex += direction; // Calcula el nuevo índice
+       
+           if (currentGalleryIndex < 0) {
+             currentGalleryIndex = galleries.length - 1; // Si el índice es menor que cero, establece el último índice
+           } else if (currentGalleryIndex >= galleries.length) {
+             currentGalleryIndex = 0; // Si el índice supera la cantidad de galerías, vuelve al primer índice
+           }
+       
+           galleries[currentGalleryIndex].style.display = "block"; // Muestra la nueva galería
+           document.getElementById("galleryTitle").textContent = galleryTitles[currentGalleryIndex]; // Actualiza el título de la galería
+         }
+       </script>
+       
+
+    </body>
+    </html>
+    
+    
